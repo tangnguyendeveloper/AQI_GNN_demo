@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="AQI Sensors Simulator - Tạng Nguyễn Developer" />
+        <meta name="author" content="Tạng Nguyễn Developer" />
+        <meta name="keywords" content="GCN, AQI, Simulator">
+        <title>AQI Sensors Simulator</title>
+
+        <link rel="shortcut icon" href="img\aqi_icon.png" />
+        <link rel="stylesheet" href="styles.css">
+
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <form class="range", id="co">
+              <div class="form-group range__slider">
+                <input type="range" step="10">
+              </div><!--/form-group-->
+              <div class="form-group range__value">
+                <label>CO</label>
+                <span></span>            
+              </div><!--/form-group-->
+            </form>
+          </div><!--/container-->
+
+          <div class="container">
+            <form class="range", id="no2">
+              <div class="form-group range__slider">
+                <input type="range" step="1">
+              </div><!--/form-group-->
+              <div class="form-group range__value">
+                <label>NO<sub>2</sub></label>
+                <span></span>            
+              </div><!--/form-group-->
+            </form>
+          </div><!--/container-->
+
+          <div class="container">
+            <form class="range", id="o3">
+              <div class="form-group range__slider">
+                <input type="range" step="0.01">
+              </div><!--/form-group-->
+              <div class="form-group range__value">
+                <label>O<sub>3</sub></label>
+                <span></span>            
+              </div><!--/form-group-->
+            </form>
+          </div><!--/container-->
+
+          <div class="container">
+            <form class="range", id="pm25">
+              <div class="form-group range__slider">
+                <input type="range" step="5e-7">
+              </div><!--/form-group-->
+              <div class="form-group range__value">
+                <label>PM 2.5</label>
+                <span></span>            
+              </div><!--/form-group-->
+            </form>
+          </div><!--/container-->
+
+          <h3>Vui lòng kéo thả các thanh trượt để mô phỏng môi trường không khí</h3>
+          <h3 id="demo"></h3>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
