@@ -3,10 +3,11 @@ Run AQI_api.py
     - Python 3.7.15
     
     '''
+    sudo chmod +x download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh
+    ./download_tensorflow-2.5.0-cp37-none-linux_armv7l_numpy1195.sh
     pip install tensorflow-2.5.0-cp37-none-linux_armv7l.whl
     pip install paho-mqtt
     pip install pyserial
-
     '''
 
 # PC/Laptop
