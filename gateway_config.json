@@ -1,0 +1,11 @@
+{
+    "mqtt_server": "ec2-18-142-226-150.ap-southeast-1.compute.amazonaws.com",
+    "mqtt_port": 1883,
+    "publish_topic": {
+        "sensors": "sensors/raw",
+        "aqi": "AQI/predict"
+    },
+    "lora_port": "/dev/ttyUSB0",
+    "lora_baudrate": 9600
+
+}
