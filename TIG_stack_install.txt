@@ -1,0 +1,19 @@
+### Doc 
+	https://onlyoneaman.medium.com/how-to-install-tig-stack-telegraf-influx-and-grafana-on-ubuntu-405755901ac2
+	
+# Ubuntu server 22.04 LTS
+
+apt-get update
+apt-get upgrade
+
+apt install mosquitto mosquitto-clients
+systemctl status mosquitto
+nano /etc/mosquitto/mosquitto.conf
+	#add the end
+	listener 1883 0.0.0.0
+	allow_anonymous true
+systemctl restart mosquitto
+systemctl status mosquitto
+
+
+read doc
