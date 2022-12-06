@@ -24,7 +24,7 @@ class LoRa:
 
 
 
-TF_MODEL_PATH = "/home/pi/AQI-GNN-GRU/AQI_GNN_GRU/AQI_model_GNN_GRU.tflite"
+TF_MODEL_PATH = "AQI_GNN_final/AQI_model_GNN_final.tflite"
 model = None
 input_tensor_index = None
 output_tensor_index = None
